@@ -5,6 +5,6 @@ app.get("/", (req, res) => {
   res.send({ test: "Test" });
 });
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log("Listening");
 });
